@@ -1,0 +1,78 @@
+.landing {
+  position: relative;
+  height: 93vh;
+  background-image: url("../../assets/bg-edited.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.landing .land {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.landing div p {
+  color: #fff;
+}
+.landing div h1 {
+  color: white;
+  font-weight: bold;
+}
+.landing div button {
+  background: transparent;
+  display: block;
+  width: 200px;
+  height: 50px;
+  margin: 20px auto 0;
+  border: none;
+  color: #000;
+  background-color: #51eaea;
+  transition: 0.3s linear;
+}
+.landing div button:hover {
+  color: #51eaea;
+  border: 1px solid #51eaea;
+  background-color: transparent;
+}
+.site {
+  position: absolute;
+  bottom: -60px;
+}
+
+.landing h2 {
+  color: white;
+  text-align: center;
+  margin: 10px 0;
+  font-style: italic;
+}
+
+.site .row > div p {
+  text-align: center;
+}
+.site .row > div p span {
+  font-weight: bold;
+}
+.site .row > div:first-child {
+  background-color: #51eaea;
+}
+.site .row > div:nth-child(2) {
+  background: #74d12b;
+}
+.site .row > div:last-child {
+  background: #ffc107;
+}
+@media (max-width: 767px) {
+  .site .row > div {
+    height: 300px;
+    padding-top: 50px;
+  }
+  .site .row > div p {
+    padding: 30px 0;
+  }
+}
+@media ((min-width: 768px) and (max-width : 991px)) {
+  .site .row > div:last-child {
+    margin-left: 32px !important;
+  }
+}

@@ -1,0 +1,18 @@
+.opinion div {
+  width: 100px;
+  height: 100px;
+}
+.opinion div img {
+  border-radius: 50%;
+}
+.opinion blockquote {
+  padding: 10px;
+  color: #000;
+  font-family: "Crimson Text", serif;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  font-style: italic;
+}
+.author {
+  color: #8c92a0;
+}

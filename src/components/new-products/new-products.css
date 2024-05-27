@@ -1,0 +1,15 @@
+.owl-nav button{
+  display: none !important;
+}
+.owl-dots{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.owl-dots button:first-child span{
+    position: relative;
+    left: 150px
+}
+.owl-dots .owl-dot.active > span{
+    background: #51eaea !important;
+}
