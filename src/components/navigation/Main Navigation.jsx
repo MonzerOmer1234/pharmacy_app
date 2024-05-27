@@ -41,7 +41,7 @@ function MainNavigation() {
           <nav className={classes.nav}>
             <Navbar collapseOnSelect expand="lg">
               <Container className={classes.container}>
-                <Navbar.Brand href="/pharmacy_system" className="text-black fw-bold ">
+                <Navbar.Brand href="/" className="text-black fw-bold ">
                   P H A R M A
                 </Navbar.Brand>
 
